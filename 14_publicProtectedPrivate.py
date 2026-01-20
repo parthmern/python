@@ -22,6 +22,7 @@ print(s._branch)             # protected → allowed (but not recommended)
 # print(s.__fees)            # ❌ error (private)
 print(s._Student__fees)      # ✅ private accessed using name mangling
 # s.__hello() # AttributeError private
+# s._protectedFunc() # works but should not use
 
 s.show()
 
