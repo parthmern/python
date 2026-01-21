@@ -25,6 +25,7 @@ print(str[2:]) # rth    same as [2: len(str)]
 # negavtive index slicing
 str2 = "APPLE" # -5 -4 -3 -2 -1
 print(str2[-3: -1]) # PL
+str2[::-1]   # slice-based reverse
 
 # func
 str = "I am a coder."
@@ -34,3 +35,8 @@ str.capitalize() #capitalizes 1st char
 # str.find(word) #returns 1st index of 1st occurrence
 str.count("am") #counts the occurrence of substr in string
 str.lower()
+str.isdigit()
+str.isalpha() #Returns True if all characters in the string are in the alphabet
+str.find()	# Searches the string for a specified value and returns the position of where it was found or -1
+str.index() # same as find but index() method raises an exception if the value is not found
+str.strip() # trim string
