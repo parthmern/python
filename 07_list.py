@@ -27,6 +27,9 @@ while i< len(marks):
 marks.clear()
 print(marks)    #[]
 
+marks.pop() # remove last ele
+marks.pop(1) # remove ele from specific index
+
 # funcs -------------- ( all in original string )
 
 list = [2, 1, 3]
